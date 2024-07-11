@@ -19,6 +19,11 @@ export function Slide01({ navigation }: MenuStackTypes){
                     Slide 
                 </Text>
             </TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.push("Drawer")}>
+                <Text>
+                    MenuDrawer
+                </Text>
+            </TouchableOpacity>
         </View>
     )
 }
